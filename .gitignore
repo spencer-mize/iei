@@ -1,6 +1,11 @@
 # Remove SASS cache files #
-wp-content/themes/efeqdev/.sass-cache/*
+*.scssc
+*.sassc
 
+.travis.yml
+
+#no vendor
+wp-content/themes/iei/vendor/*
 # No need to add the upgrade folder to the repo #
 wp-content/upgrade/*
 

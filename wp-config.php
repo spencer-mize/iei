@@ -20,8 +20,8 @@ if (strpos($_SERVER['REMOTE_ADDR'],"10.0.15")>-1) {
     define('WP_ENV', 'prod');
 }
 if (WP_ENV == 'dev') {
-    define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . '/wordpress');
-    define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT']);
+    define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
+    define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
     define('WP_CONTENT_DIR', $_SERVER['CONTEXT_DOCUMENT_ROOT'] . '/wp-content');
     define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
