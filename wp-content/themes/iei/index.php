@@ -5,11 +5,15 @@ if ( ! class_exists( 'Timber' ) ) {
 	return;
 }
 $context = Timber::get_context();
-$context['posts'] = Timber::get_posts();
-$context['foo'] = 'bar';
 $templates = array( 'index.twig' );
-if ( is_home() ) {
+if (is_front_page() || is_home() ) {
 	array_unshift( $templates, 'home.twig' );
+}else if(is_single()){
+	$context['post'] = $context['posts'][0];
+	$type = $context['post']->post_type;
+	$templates = array('page-'.$context['posts'][0]->post_name.'.twig','single-'.$type.'.twig','single.twig','index.twig');
+}else if(is_page()){
+	$templates = array('page-'.$context['posts'][0]->post_name.'.twig','page.twig','index.twig');
 }
 Timber::render( $templates, $context );
 

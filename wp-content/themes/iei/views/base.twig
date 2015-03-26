@@ -6,14 +6,16 @@
 {% endblock %}
 
 	<body class="{{body_class}}" data-template="base.twig">
+		{% block nav %}
+			{% include 'nav.twig' %}
+		{% endblock %}
 		<header class="header" >
 			{% block header %}
-				{% include 'nav.twig' %}
+				<h1 class="col-sm-8 col-sm-offset-2">{{posts[0].title}}</h1>
 			{% endblock %}
 		</header>
 
-		<section id="content" role="main" class="content-wrapper">
-			{% if title %}<h1>{{title}}</h1>{% endif %}
+		<section id="content" role="main" class="content-wrapper container-fluid">
 			<div class="wrapper {{sidebar_class}}">
 				{% block content %}
 					Sorry, no content
