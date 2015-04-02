@@ -9,12 +9,12 @@
 		{% block nav %}
 			{% include 'nav.twig' %}
 		{% endblock %}
-		<header class="header" >
-			{% block header %}
-				<h1 class="col-sm-8 col-sm-offset-2">{{posts[0].title}}</h1>
-			{% endblock %}
-		</header>
-
+		{% block header %}
+			<header class="header slidein" >
+				<h1 class="colored">{{posts[0].title}}</h1>
+			</header>
+		{% endblock %}		
+		
 		<section id="content" role="main" class="content-wrapper container-fluid">
 			<div class="wrapper {{sidebar_class}}">
 				{% block content %}

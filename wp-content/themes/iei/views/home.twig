@@ -1,9 +1,14 @@
 {% extends "base.twig" %}
 
 {% block header %}
+	<div>
+		<img class="img-responsive" src="{{posts[0].thumbnail}}"></img>
+	<header class="header" >
+		<h1 class="col-sm-8">{{posts[0].title}} <small>{{posts[0].custom["wpcf-subtitle"]}}</small></h1>
+		<p class="col-sm-4">{{posts[0].post_excerpt}}</p>
+	</header>
 {% endblock %}
 	
 {% block content %}
-	{% for post in posts %}
-	{% endfor %}
+
 {% endblock %}

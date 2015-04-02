@@ -8,6 +8,9 @@ remove_action('wp_head', 'wp_generator');
 /* Allow Menu Editing */
 add_theme_support( 'menus' );
 
+/* Allow Page Excerpts */
+add_post_type_support('page','excerpt');
+
 /* Setup Admin Menus */
 add_action('admin_menu', 'remove_menus');
 function remove_menus () {
@@ -42,7 +45,34 @@ function my_remove_meta_boxes() {
 	}
 }
 add_action( 'add_meta_boxes', 'my_remove_meta_boxes' );
+
+/* Fix ACF Directory
+function acf_admin_enqueue_scripts(){
+	global $wp_scripts;var_dump($wp_scripts);
+	$acf = "/advanced-custom-fields/";
+	wp_deregister_script('acf-field-group');
+	wp_deregister_script('acf-input');
 	
+	wp_deregister_style('acf-field-group');
+	wp_deregister_style('acf');
+	wp_deregister_style('acf-global');
+	wp_deregister_style('acf-input');
+	wp_deregister_style('acf-datepicker');
+	
+	wp_enqueue_script( 'acf-field-group',plugins_url() . $acf . "js/field-group.min.js" );
+	wp_enqueue_script( 'acf-input',plugins_url() . $acf . "js/input.min.js" );
+	
+	wp_enqueue_style( 'acf',plugins_url() . $acf . "css/acf.css" );	
+	wp_enqueue_style( 'acf-global',plugins_url() . $acf . "css/global.css" );	
+	wp_enqueue_style( 'acf-field-group',plugins_url() . $acf . "css/field-group.css" );
+	wp_enqueue_style( 'acf-input',plugins_url() . $acf . "css/input.css" );
+	wp_enqueue_style( 'acf-datepicker',plugins_url() . $acf . "core/fields/date_picker/style.date_picker.css" );
+
+}
+add_action('acf/field_group/admin_enqueue_scripts', 'acf_admin_enqueue_scripts');
+add_action('acf/input/admin_enqueue_scripts', 'acf_admin_enqueue_scripts');
+ */
+ 
 /* Add SASS theme CSS */
 add_action( 'wp_enqueue_scripts', 'enqueue_theme_css' );
 function enqueue_theme_css(){
