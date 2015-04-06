@@ -5,7 +5,7 @@
 	{% endblock %}
 {% endblock %}
 
-	<body class="{{body_class}}" data-template="base.twig">
+	<body class="{{body_class}} {{posts[0].post_name}}" data-template="base.twig">
 		{% block nav %}
 			{% include 'nav.twig' %}
 		{% endblock %}
@@ -22,7 +22,7 @@
 				{% endblock %}
 			</div>
 		</section>
-
+		<div class="clearfix"></div>
 		{% block footer %}
 			<footer id="footer">
 				{% include 'footer.twig' %}

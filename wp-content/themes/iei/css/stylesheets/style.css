@@ -8567,56 +8567,80 @@ button.close {
     display: none !important;
   }
 }
-/* line 3, ../sass/style.scss */
+/* line 5, ../sass/style.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 6, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 9, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
+h5 {
+  color: #777777;
+}
+
+/* line 14, ../sass/style.scss */
+footer {
+  position: relative;
+  text-align: center;
+  line-height: 1.3em;
+  font-size: 14.4px;
+  color: #555555;
+}
+/* line 20, ../sass/style.scss */
+footer .navbar {
+  padding: 20px 0;
+}
+
+/* line 24, ../sass/style.scss */
 .navbar-brand {
   padding: 5px 15px;
 }
-/* line 11, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 .navbar-brand img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 16, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .content-wrapper {
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
-/* line 21, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .media {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
-/* line 26, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .media .media-left img {
   float: right;
   max-height: 100px;
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-  /* line 26, ../sass/style.scss */
+  /* line 41, ../sass/style.scss */
   .media .media-left img {
     margin-bottom: 0;
   }
 }
 
-/* line 39, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
+.thumb {
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
+
+/* line 58, ../sass/style.scss */
 header.slidein {
   position: relative;
   height: 71.75px;
   overflow: hidden;
   margin-bottom: 40px;
 }
-/* line 47, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 header.slidein h1.colored {
   position: absolute;
   background: #018651;
@@ -8633,14 +8657,14 @@ header.slidein h1.colored {
   white-space: nowrap;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .loaded .slidein h1.colored {
   width: 100%;
   right: 0;
   opacity: 1;
 }
 
-/* line 72, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .home header {
   color: #fefefe;
   border-bottom: 5px solid #eeeeee;
@@ -8648,23 +8672,30 @@ header.slidein h1.colored {
   position: relative;
   margin-top: -15%;
   background: #018651;
-  padding: 20px;
+  padding: 0;
 }
-/* line 82, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .home header h1 {
   margin-top: 0;
+  padding: 20px;
 }
-/* line 85, ../sass/style.scss */
-.home header p {
+/* line 105, ../sass/style.scss */
+.home header h4 {
   background-color: #0088cc;
-  height: 100%;
+  line-height: 1.4em;
   display: inline-block;
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
+  padding: 20px;
+  margin: 0;
 }
-/* line 93, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .home header small {
   display: block;
   color: #fefefe;
+}
+
+/* line 121, ../sass/style.scss */
+.our-team .media img, .our-work .media img {
+  max-height: 200px;
+  border-radius: 50%;
 }

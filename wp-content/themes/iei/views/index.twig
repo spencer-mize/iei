@@ -2,6 +2,7 @@
 
 {% block content %}
 	{% for post in posts %}
+		{% if post.thumbnail %}<img src="{{post.thumbnail}}" alt="{{post.thumbnail.title}}" class="img-responsive thumb" /> {% endif %}
 		{{post.content}}
 	{% endfor %}
 {% endblock %}
