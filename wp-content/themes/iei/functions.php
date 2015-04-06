@@ -50,7 +50,7 @@ function add_to_context($context){
 	$context['posts'] = Timber::get_posts();
 
 	if($context['posts'][0]->post_name=="our-partners"){
-		$context['partners'] = Timber::get_posts(array('post_type' => 'partners', 'nopaging' => true));
+		$context['partners'] = Timber::get_posts(array('post_type' => 'partners', 'nopaging' => true, 'orderby' => 'menu_order'));
 	}
 	if($context['posts'][0]->post_name=="our-team"){
 		$context['members'] = Timber::get_posts(array('post_type' => 'board', 'nopaging' => true, 'orderby' => 'menu_order' ));
