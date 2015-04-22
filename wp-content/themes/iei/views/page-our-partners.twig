@@ -2,16 +2,18 @@
 
 {% block content %}
 	{% for post in partners %}
-		<div class="media">
-			<div class="media-left">
-					{% if post.custom["wpcf-website"] %}<a target="_blank" href="{{post.custom["wpcf-website"]}}">{% endif %}<img class="media-object img-responsive" src="{{post.thumbnail}}" alt="{{post.title}}">{% if post.custom["wpcf-website"] %}</a>{% endif %}
+			<div class="media">
+				<div class="media-left">
+						{% if post.custom["wpcf-website"] %}<a target="_blank" href="{{post.custom["wpcf-website"]}}">{% endif %}<img class="media-object img-responsive" src="{{post.thumbnail}}" alt="{{post.title}}">{% if post.custom["wpcf-website"] %}</a>{% endif %}
+					</div>
+				<div class="media-body">
+					{% if post.custom["wpcf-website"] %}<a target="_blank" href="{{post.custom["wpcf-website"]}}"></a>{% endif %}
+						<h4 class="media-heading">{{post.title}}</h4>
+					{% if post.custom["wpcf-website"] %}</a>{% endif %}
+					{% if post.custom["wpcf-website"] %}<a target="_blank" href="{{post.custom["wpcf-website"]}}"><h5 class="media-heading">{{post.custom["wpcf-website"]}}</h5></a>{% endif %}
+					<br />
+					{{post.content}}
 				</div>
-			<div class="media-body">
-				<h4 class="media-heading">{{post.title}}</h4>
-				{% if post.custom["wpcf-website"] %}<a target="_blank" href="{{post.custom["wpcf-website"]}}"><h5 class="media-heading">{{post.custom["wpcf-website"]}}</h5></a>{% endif %}
-				<br />
-				{{post.content}}
 			</div>
-		</div>		
 	{% endfor %}
 {% endblock %}

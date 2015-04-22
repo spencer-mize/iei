@@ -2,13 +2,17 @@
 
 {% block header %}
 	<div>
-		<img class="img-responsive" src="{{posts[0].thumbnail}}"></img>
+	<img class="img-responsive" src="{{posts[0].thumbnail}}"></img>
 	<header class="header" >
-		<h1 class="col-sm-5 col-md-6 col-lg-7">{{posts[0].title}} <small>{{posts[0].custom["wpcf-subtitle"]}}</small></h1>
-		<h4 class="col-sm-7 col-md-6 col-lg-5"><span class="col-xs-12">{{posts[0].post_excerpt}}</span>
-			<a href="/our-work"><span class="col-sm-offset-5 btn btn-primary btn-lg">Learn More</span></a>
+		<h1>{{posts[0].title}} <small>{{posts[0].custom["wpcf-subtitle"]}}</small></h1>
+		<h4>
+			<span class="col-xs-8">{{posts[0].post_excerpt}}</span>
+			<span class="col-xs-4"> 
+				<a href="/our-work"><span class="btn btn-default btn-lg">Learn More</span></a>
+			</span>
 		</h4>
 	</header>
+	</div>
 {% endblock %}
 	
 {% block content %}

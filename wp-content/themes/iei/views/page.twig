@@ -1,0 +1,22 @@
+{% extends "base.twig" %}
+{% block content %}
+	{% if posts[0].thumbnail %}	
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-2">
+				{{ posts[0].content }}
+			</div>
+			<div class="col-sm-4">
+				<img class="img-responsive" src="{{ posts[0].thumbnail}}"></img>
+			</div>
+		</div>
+	{% else %}
+		{% for post in posts %}
+			{% if post.thumbnail %}<img src="{{post.thumbnail}}" alt="{{post.thumbnail.title}}" class="img-responsive thumb" /> {% endif %}
+			{{post.content}}
+		{% endfor %}
+	{% endif %}
+		
+	<div class="row ">
+
+	</div>
+{% endblock %}
