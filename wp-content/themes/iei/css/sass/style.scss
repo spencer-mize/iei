@@ -40,11 +40,11 @@ footer{
 		@extend .col-xs-12;
 		@extend .col-sm-4;
 		img{
-			float: right;
 			max-height: 100px;
-			margin-bottom: 20px;
+			margin: 20px auto;
 			@media (min-width: $screen-sm-min) {
 				margin-bottom: 0;
+				float: right;				
 			}
 		}
 	}
@@ -108,6 +108,10 @@ header{
 		}
 		footer{
 			margin-top: 0%;
+		}
+		.navbar .container-fluid{
+			width: 100%;
+			margin-left: 0;
 		}
 	}
 }
@@ -176,5 +180,48 @@ header{
 			max-height: 200px;
 			border-radius: 50%;
 		}
+	}
+}
+.our-partners{
+	.media{
+		.media-left{
+			@extend .col-sm-3;
+			@extend .col-sm-offset-1;
+			img{
+				max-width: 50%;
+			}
+		}		
+	}
+}
+.svg-container{
+	&#africa{
+		@extend .col-lg-3;
+		@extend .col-lg-offset-2;
+	}
+	&#usa{
+		@extend .col-lg-5;
+	}	
+	padding-bottom: 20%; /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
+	vertical-align: middle; /* top | middle | bottom ... do what you want */
+	svg{ /* svg into : object, img or inline */
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+	path{
+		fill: $almost-white !important;
+		stroke: $deep-gray !important;
+	}
+	@for $i from 1 through 200{
+		$delay: random(5000) / 1000;
+		path:nth-of-type(#{$i}){
+			transition: all 4s ease-in-out $delay+s;
+		}
+	}
+}
+.svg-container.visible{
+	path{
+		fill: $brand-primary !important;
 	}
 }

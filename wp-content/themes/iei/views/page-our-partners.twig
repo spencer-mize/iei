@@ -3,6 +3,7 @@
 {% block content %}
 	{% for post in partners %}
 			<div class="media">
+				<div class="spacer"></div>
 				<div class="media-left">
 						{% if post.custom["wpcf-website"] %}<a target="_blank" href="{{post.custom["wpcf-website"]}}">{% endif %}<img class="media-object img-responsive" src="{{post.thumbnail}}" alt="{{post.title}}">{% if post.custom["wpcf-website"] %}</a>{% endif %}
 					</div>

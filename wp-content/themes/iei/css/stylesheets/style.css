@@ -2407,7 +2407,7 @@ pre code {
 }
 
 /* line 11, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .media .media-left, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .home header h1, .col-xs-6, .col-sm-6, .media .media-body, .col-md-6, .col-lg-6, .home header h4, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, header h1, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .media .media-left, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .our-partners .media .media-left, .col-md-3, .col-lg-3, .svg-container#africa, .col-xs-4, .col-sm-4, .media .media-left, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .home header h1, .svg-container#usa, .col-xs-6, .col-sm-6, .media .media-body, .col-md-6, .col-lg-6, .home header h4, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, header h1, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .media .media-left, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2676,7 +2676,7 @@ pre code {
 
 @media (min-width: 768px) {
   /* line 27, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .media .media-left, .col-sm-5, .col-sm-6, .media .media-body, .col-sm-7, .col-sm-8, header h1, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .our-partners .media .media-left, .col-sm-4, .media .media-left, .col-sm-5, .col-sm-6, .media .media-body, .col-sm-7, .col-sm-8, header h1, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
 
@@ -2691,7 +2691,7 @@ pre code {
   }
 
   /* line 35, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-3 {
+  .col-sm-3, .our-partners .media .media-left {
     width: 25%;
   }
 
@@ -2876,7 +2876,7 @@ pre code {
   }
 
   /* line 60, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-offset-1 {
+  .col-sm-offset-1, .our-partners .media .media-left {
     margin-left: 8.33333%;
   }
 
@@ -3198,7 +3198,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   /* line 27, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .home header h1, .col-lg-6, .home header h4, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .svg-container#africa, .col-lg-4, .col-lg-5, .home header h1, .svg-container#usa, .col-lg-6, .home header h4, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
 
@@ -3213,7 +3213,7 @@ pre code {
   }
 
   /* line 35, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-3 {
+  .col-lg-3, .svg-container#africa {
     width: 25%;
   }
 
@@ -3223,7 +3223,7 @@ pre code {
   }
 
   /* line 35, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-5, .home header h1 {
+  .col-lg-5, .home header h1, .svg-container#usa {
     width: 41.66667%;
   }
 
@@ -3403,7 +3403,7 @@ pre code {
   }
 
   /* line 60, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-offset-2 {
+  .col-lg-offset-2, .svg-container#africa {
     margin-left: 16.66667%;
   }
 
@@ -8619,14 +8619,14 @@ footer .navbar {
 }
 /* line 42, ../sass/style.scss */
 .media .media-left img {
-  float: right;
   max-height: 100px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 @media (min-width: 768px) {
   /* line 42, ../sass/style.scss */
   .media .media-left img {
     margin-bottom: 0;
+    float: right;
   }
 }
 
@@ -8691,73 +8691,909 @@ header h1 {
   .home footer {
     margin-top: 0%;
   }
+  /* line 112, ../sass/style.scss */
+  .home .navbar .container-fluid {
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
-/* line 116, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .wrapper .pull-right img {
   padding: 20px;
   padding-right: 0;
 }
-/* line 121, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 .wrapper .pull-left {
   padding-left: 0;
 }
-/* line 123, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .wrapper .pull-left img {
   padding: 20px;
   padding-left: 0;
 }
-/* line 128, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .wrapper .row {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-/* line 132, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+1) {
   background: #343434;
   color: #fefefe;
 }
-/* line 135, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+1) h2 {
   color: #018651;
 }
-/* line 142, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) {
   background: #004566;
   color: #fefefe;
 }
-/* line 145, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) h2 {
   color: #fefefe;
 }
-/* line 148, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) a {
   color: #777777;
 }
-/* line 152, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n) {
   background: #fefefe;
   color: #004566;
 }
-/* line 155, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n) h2 {
   color: #004566;
 }
 @media (min-width: 1200px) {
-  /* line 163, ../sass/style.scss */
+  /* line 167, ../sass/style.scss */
   .wrapper .row {
     padding-bottom: 10%;
     padding-top: 5%;
     font-size: 20px;
   }
-  /* line 167, ../sass/style.scss */
+  /* line 171, ../sass/style.scss */
   .wrapper .row h4 {
     font-size: 36px;
   }
 }
 
-/* line 175, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .our-team .media img, .our-work .media img {
   max-height: 200px;
   border-radius: 50%;
+}
+
+/* line 190, ../sass/style.scss */
+.our-partners .media .media-left img {
+  max-width: 50%;
+}
+
+/* line 196, ../sass/style.scss */
+.svg-container {
+  padding-bottom: 20%;
+  /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
+  vertical-align: middle;
+  /* top | middle | bottom ... do what you want */
+}
+/* line 206, ../sass/style.scss */
+.svg-container svg {
+  /* svg into : object, img or inline */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 212, ../sass/style.scss */
+.svg-container path {
+  fill: #fefefe !important;
+  stroke: #343434 !important;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(1) {
+  transition: all 4s ease-in-out 1.756s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(2) {
+  transition: all 4s ease-in-out 3.128s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(3) {
+  transition: all 4s ease-in-out 3.792s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(4) {
+  transition: all 4s ease-in-out 2.233s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(5) {
+  transition: all 4s ease-in-out 1.671s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(6) {
+  transition: all 4s ease-in-out 4.474s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(7) {
+  transition: all 4s ease-in-out 0.877s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(8) {
+  transition: all 4s ease-in-out 3.076s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(9) {
+  transition: all 4s ease-in-out 3.712s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(10) {
+  transition: all 4s ease-in-out 3.738s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(11) {
+  transition: all 4s ease-in-out 1.889s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(12) {
+  transition: all 4s ease-in-out 2.887s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(13) {
+  transition: all 4s ease-in-out 0.612s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(14) {
+  transition: all 4s ease-in-out 2.982s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(15) {
+  transition: all 4s ease-in-out 4.379s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(16) {
+  transition: all 4s ease-in-out 0.508s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(17) {
+  transition: all 4s ease-in-out 0.526s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(18) {
+  transition: all 4s ease-in-out 0.978s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(19) {
+  transition: all 4s ease-in-out 3.426s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(20) {
+  transition: all 4s ease-in-out 2.449s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(21) {
+  transition: all 4s ease-in-out 3.879s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(22) {
+  transition: all 4s ease-in-out 0.049s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(23) {
+  transition: all 4s ease-in-out 2.444s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(24) {
+  transition: all 4s ease-in-out 1.516s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(25) {
+  transition: all 4s ease-in-out 1.34s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(26) {
+  transition: all 4s ease-in-out 3.188s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(27) {
+  transition: all 4s ease-in-out 0.872s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(28) {
+  transition: all 4s ease-in-out 1.995s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(29) {
+  transition: all 4s ease-in-out 0.838s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(30) {
+  transition: all 4s ease-in-out 3.409s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(31) {
+  transition: all 4s ease-in-out 1.767s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(32) {
+  transition: all 4s ease-in-out 0.189s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(33) {
+  transition: all 4s ease-in-out 1.68s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(34) {
+  transition: all 4s ease-in-out 4.705s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(35) {
+  transition: all 4s ease-in-out 0.912s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(36) {
+  transition: all 4s ease-in-out 4.105s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(37) {
+  transition: all 4s ease-in-out 1.387s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(38) {
+  transition: all 4s ease-in-out 2.581s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(39) {
+  transition: all 4s ease-in-out 2.093s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(40) {
+  transition: all 4s ease-in-out 2.149s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(41) {
+  transition: all 4s ease-in-out 1.036s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(42) {
+  transition: all 4s ease-in-out 4.739s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(43) {
+  transition: all 4s ease-in-out 3.643s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(44) {
+  transition: all 4s ease-in-out 0.314s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(45) {
+  transition: all 4s ease-in-out 3.941s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(46) {
+  transition: all 4s ease-in-out 1.341s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(47) {
+  transition: all 4s ease-in-out 4.251s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(48) {
+  transition: all 4s ease-in-out 1.531s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(49) {
+  transition: all 4s ease-in-out 1.465s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(50) {
+  transition: all 4s ease-in-out 2.514s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(51) {
+  transition: all 4s ease-in-out 4.322s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(52) {
+  transition: all 4s ease-in-out 0.067s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(53) {
+  transition: all 4s ease-in-out 3.864s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(54) {
+  transition: all 4s ease-in-out 2.417s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(55) {
+  transition: all 4s ease-in-out 2.518s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(56) {
+  transition: all 4s ease-in-out 3.21s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(57) {
+  transition: all 4s ease-in-out 4.924s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(58) {
+  transition: all 4s ease-in-out 3.047s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(59) {
+  transition: all 4s ease-in-out 2.375s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(60) {
+  transition: all 4s ease-in-out 1.489s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(61) {
+  transition: all 4s ease-in-out 0.743s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(62) {
+  transition: all 4s ease-in-out 3.008s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(63) {
+  transition: all 4s ease-in-out 4.594s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(64) {
+  transition: all 4s ease-in-out 1.802s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(65) {
+  transition: all 4s ease-in-out 2.658s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(66) {
+  transition: all 4s ease-in-out 1.52s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(67) {
+  transition: all 4s ease-in-out 0.612s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(68) {
+  transition: all 4s ease-in-out 4.888s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(69) {
+  transition: all 4s ease-in-out 2.447s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(70) {
+  transition: all 4s ease-in-out 1.016s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(71) {
+  transition: all 4s ease-in-out 3.266s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(72) {
+  transition: all 4s ease-in-out 0.625s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(73) {
+  transition: all 4s ease-in-out 4.518s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(74) {
+  transition: all 4s ease-in-out 4.227s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(75) {
+  transition: all 4s ease-in-out 4.785s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(76) {
+  transition: all 4s ease-in-out 3.62s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(77) {
+  transition: all 4s ease-in-out 4.514s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(78) {
+  transition: all 4s ease-in-out 3.698s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(79) {
+  transition: all 4s ease-in-out 4.822s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(80) {
+  transition: all 4s ease-in-out 3.861s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(81) {
+  transition: all 4s ease-in-out 1.87s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(82) {
+  transition: all 4s ease-in-out 0.021s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(83) {
+  transition: all 4s ease-in-out 1.761s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(84) {
+  transition: all 4s ease-in-out 1.589s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(85) {
+  transition: all 4s ease-in-out 1.029s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(86) {
+  transition: all 4s ease-in-out 4.766s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(87) {
+  transition: all 4s ease-in-out 0.35s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(88) {
+  transition: all 4s ease-in-out 3.063s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(89) {
+  transition: all 4s ease-in-out 0.949s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(90) {
+  transition: all 4s ease-in-out 4.118s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(91) {
+  transition: all 4s ease-in-out 2.385s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(92) {
+  transition: all 4s ease-in-out 1.36s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(93) {
+  transition: all 4s ease-in-out 2.158s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(94) {
+  transition: all 4s ease-in-out 4.208s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(95) {
+  transition: all 4s ease-in-out 4.428s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(96) {
+  transition: all 4s ease-in-out 3.725s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(97) {
+  transition: all 4s ease-in-out 4.516s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(98) {
+  transition: all 4s ease-in-out 2.091s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(99) {
+  transition: all 4s ease-in-out 0.589s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(100) {
+  transition: all 4s ease-in-out 3.402s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(101) {
+  transition: all 4s ease-in-out 2.199s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(102) {
+  transition: all 4s ease-in-out 4.265s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(103) {
+  transition: all 4s ease-in-out 2.153s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(104) {
+  transition: all 4s ease-in-out 4.894s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(105) {
+  transition: all 4s ease-in-out 4.246s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(106) {
+  transition: all 4s ease-in-out 0.192s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(107) {
+  transition: all 4s ease-in-out 0.872s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(108) {
+  transition: all 4s ease-in-out 1.3s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(109) {
+  transition: all 4s ease-in-out 3.324s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(110) {
+  transition: all 4s ease-in-out 4.193s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(111) {
+  transition: all 4s ease-in-out 2.962s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(112) {
+  transition: all 4s ease-in-out 1.276s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(113) {
+  transition: all 4s ease-in-out 4.187s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(114) {
+  transition: all 4s ease-in-out 3.216s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(115) {
+  transition: all 4s ease-in-out 1.738s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(116) {
+  transition: all 4s ease-in-out 0.63s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(117) {
+  transition: all 4s ease-in-out 0.931s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(118) {
+  transition: all 4s ease-in-out 4.308s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(119) {
+  transition: all 4s ease-in-out 0.989s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(120) {
+  transition: all 4s ease-in-out 0.76s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(121) {
+  transition: all 4s ease-in-out 1.579s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(122) {
+  transition: all 4s ease-in-out 4.412s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(123) {
+  transition: all 4s ease-in-out 1.108s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(124) {
+  transition: all 4s ease-in-out 1.332s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(125) {
+  transition: all 4s ease-in-out 2.021s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(126) {
+  transition: all 4s ease-in-out 0.936s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(127) {
+  transition: all 4s ease-in-out 2.808s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(128) {
+  transition: all 4s ease-in-out 1.476s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(129) {
+  transition: all 4s ease-in-out 1.091s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(130) {
+  transition: all 4s ease-in-out 1.201s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(131) {
+  transition: all 4s ease-in-out 4.537s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(132) {
+  transition: all 4s ease-in-out 1.138s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(133) {
+  transition: all 4s ease-in-out 3.65s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(134) {
+  transition: all 4s ease-in-out 0.749s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(135) {
+  transition: all 4s ease-in-out 3.991s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(136) {
+  transition: all 4s ease-in-out 3.481s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(137) {
+  transition: all 4s ease-in-out 4.901s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(138) {
+  transition: all 4s ease-in-out 2.927s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(139) {
+  transition: all 4s ease-in-out 0.593s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(140) {
+  transition: all 4s ease-in-out 0.519s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(141) {
+  transition: all 4s ease-in-out 2.26s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(142) {
+  transition: all 4s ease-in-out 1.35s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(143) {
+  transition: all 4s ease-in-out 1.644s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(144) {
+  transition: all 4s ease-in-out 4.708s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(145) {
+  transition: all 4s ease-in-out 1.925s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(146) {
+  transition: all 4s ease-in-out 2.046s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(147) {
+  transition: all 4s ease-in-out 4.314s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(148) {
+  transition: all 4s ease-in-out 1.826s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(149) {
+  transition: all 4s ease-in-out 2.463s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(150) {
+  transition: all 4s ease-in-out 0.174s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(151) {
+  transition: all 4s ease-in-out 1.07s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(152) {
+  transition: all 4s ease-in-out 1.739s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(153) {
+  transition: all 4s ease-in-out 0.448s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(154) {
+  transition: all 4s ease-in-out 2.022s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(155) {
+  transition: all 4s ease-in-out 4.843s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(156) {
+  transition: all 4s ease-in-out 4.809s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(157) {
+  transition: all 4s ease-in-out 1.916s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(158) {
+  transition: all 4s ease-in-out 1.097s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(159) {
+  transition: all 4s ease-in-out 2.988s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(160) {
+  transition: all 4s ease-in-out 0.438s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(161) {
+  transition: all 4s ease-in-out 3.759s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(162) {
+  transition: all 4s ease-in-out 1.522s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(163) {
+  transition: all 4s ease-in-out 0.803s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(164) {
+  transition: all 4s ease-in-out 1.418s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(165) {
+  transition: all 4s ease-in-out 1.286s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(166) {
+  transition: all 4s ease-in-out 4.113s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(167) {
+  transition: all 4s ease-in-out 4.245s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(168) {
+  transition: all 4s ease-in-out 0.092s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(169) {
+  transition: all 4s ease-in-out 0.656s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(170) {
+  transition: all 4s ease-in-out 0.889s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(171) {
+  transition: all 4s ease-in-out 1.109s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(172) {
+  transition: all 4s ease-in-out 3.802s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(173) {
+  transition: all 4s ease-in-out 3.527s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(174) {
+  transition: all 4s ease-in-out 4.477s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(175) {
+  transition: all 4s ease-in-out 0.328s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(176) {
+  transition: all 4s ease-in-out 4.934s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(177) {
+  transition: all 4s ease-in-out 3.754s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(178) {
+  transition: all 4s ease-in-out 1.027s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(179) {
+  transition: all 4s ease-in-out 3.195s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(180) {
+  transition: all 4s ease-in-out 3.636s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(181) {
+  transition: all 4s ease-in-out 1.749s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(182) {
+  transition: all 4s ease-in-out 1.653s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(183) {
+  transition: all 4s ease-in-out 1.912s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(184) {
+  transition: all 4s ease-in-out 4.121s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(185) {
+  transition: all 4s ease-in-out 1.705s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(186) {
+  transition: all 4s ease-in-out 2.84s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(187) {
+  transition: all 4s ease-in-out 0.634s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(188) {
+  transition: all 4s ease-in-out 2.545s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(189) {
+  transition: all 4s ease-in-out 2.159s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(190) {
+  transition: all 4s ease-in-out 3.048s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(191) {
+  transition: all 4s ease-in-out 4.239s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(192) {
+  transition: all 4s ease-in-out 3.537s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(193) {
+  transition: all 4s ease-in-out 1.886s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(194) {
+  transition: all 4s ease-in-out 3.537s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(195) {
+  transition: all 4s ease-in-out 3.262s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(196) {
+  transition: all 4s ease-in-out 4.15s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(197) {
+  transition: all 4s ease-in-out 3.114s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(198) {
+  transition: all 4s ease-in-out 3.679s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(199) {
+  transition: all 4s ease-in-out 0.375s;
+}
+/* line 218, ../sass/style.scss */
+.svg-container path:nth-of-type(200) {
+  transition: all 4s ease-in-out 0.479s;
+}
+
+/* line 224, ../sass/style.scss */
+.svg-container.visible path {
+  fill: #018651 !important;
 }
