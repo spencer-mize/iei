@@ -174,11 +174,15 @@ header{
 		}
 	}
 }
-.our-team,.our-work{
+.our-team{
 	.media{
+		strong{
+			color: $brand-secondary;
+		}
 		img{
 			max-height: 200px;
 			border-radius: 50%;
+			border: 10px solid $brand-primary;
 		}
 	}
 }
@@ -223,5 +227,18 @@ header{
 .svg-container.visible{
 	path{
 		fill: $brand-primary !important;
+	}
+}
+.our-purpose,.our-work,.get-involved{
+	.wrapper{
+		img{
+			border-radius: 50%;
+			border: 10px solid $almost-white;
+		}
+	}
+	.wrapper .row:nth-of-type(3n) {
+		img{
+			border-color: $brand-secondary;
+		}
 	}
 }

@@ -17,9 +17,11 @@
 	{% endif %}
 		
 	<div class="row">
-		<div class="visible-lg">
-			{% include "africa.twig" %}
-			{% include "usa.twig" %}
-		</div>
+		{% if posts[0].post_name=="our-purpose" %}
+			<div class="visible-lg">
+				{% include "africa.twig" %}
+				{% include "usa.twig" %}
+			</div>
+		{% endif %}
 	</div>
 {% endblock %}
