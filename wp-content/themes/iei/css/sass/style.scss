@@ -116,19 +116,6 @@ header{
 	}
 }
 .wrapper{
-	.pull-right{
-		img{
-			padding: 20px;
-			padding-right: 0;
-		}
-	}
-	.pull-left{
-		padding-left: 0;
-		img{
-			padding: 20px;
-			padding-left: 0;
-		}
-	}
 	.row{
 		padding-bottom: 20px;
 		padding-top: 20px;
@@ -150,7 +137,7 @@ header{
 			color: $almost-white;
 		}
 		a{
-			color: $gray-light;
+			color: $brand-third;
 		}
 	}
 	.row:nth-of-type(3n){
@@ -205,9 +192,9 @@ header{
 	&#usa{
 		@extend .col-lg-5;
 	}	
-	padding-bottom: 20%; /* depends on svg ratio, for my zebra height/width = 1.2 so padding-bottom = 50% * 1.2 = 60% */
-	vertical-align: middle; /* top | middle | bottom ... do what you want */
-	svg{ /* svg into : object, img or inline */
+	padding-bottom: 20%; 
+	vertical-align: middle;
+	svg{ 
 	  display: block;
 	  position: absolute;
 	  top: 0;
@@ -229,7 +216,7 @@ header{
 		fill: $brand-primary !important;
 	}
 }
-.our-purpose,.our-work,.get-involved{
+.our-purpose,.our-work,.get-involved,.our-history{
 	.wrapper{
 		img{
 			border-radius: 50%;
@@ -240,5 +227,18 @@ header{
 		img{
 			border-color: $brand-secondary;
 		}
+	}
+}
+.our-work, .our-team{
+	.wrapper{
+		img{
+			max-height: 250px;
+		}
+	}
+}
+.our-work .laptop-recycling-program{
+	img{
+		border: none;
+		border-radius: 0;
 	}
 }

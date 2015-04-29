@@ -15,7 +15,8 @@
 			{{post.content}}
 		{% endfor %}
 	{% endif %}
-		
+	
+	{% if posts[0].post_name=="our-purpose" or posts[0].post_name=="get-involved" %}
 	<div class="row">
 		{% if posts[0].post_name=="our-purpose" %}
 			<div class="visible-lg">
@@ -24,4 +25,5 @@
 			</div>
 		{% endif %}
 	</div>
+	{% endif %}	
 {% endblock %}

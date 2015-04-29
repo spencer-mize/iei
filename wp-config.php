@@ -14,7 +14,7 @@
  * @package WordPress
  */
 
-if (strpos($_SERVER['REMOTE_ADDR'],"10.0.15")>-1) {
+if (strpos($_SERVER['REMOTE_ADDR'],"10.0.15")>-1 || strpos($_SERVER['REMOTE_ADDR'],"192.168.6")>-1) {
     define('WP_ENV', 'dev');
 } else {
     define('WP_ENV', 'prod');

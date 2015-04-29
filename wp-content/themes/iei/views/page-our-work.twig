@@ -2,7 +2,7 @@
 
 {% block content %}
 	{% for member in members %}
-		<div class="row">
+		<div class="row {{member.post_name}}">
 			<div class="media">
 				<div class="media-left">
 						<img class="media-object img-responsive" src="{{member.thumbnail}}" alt="{{post.title}}">
