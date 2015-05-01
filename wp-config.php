@@ -35,21 +35,11 @@ if (WP_ENV == 'dev') {
     define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
     define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
-    define('DB_NAME', 'efeqdev-prod');
-    define('DB_USER', 'username');
-    define('DB_PASSWORD', 'password');
-    define('DB_HOST', 'mysql.efeqdev.com');
+    define('DB_NAME', 'iei');
+    define('DB_USER', 'ieiadmin');
+    define('DB_PASSWORD', 'Z9$rJ0CM@TFSR@d');
+    define('DB_HOST', 'localhost');
 }
-
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
-
-/** MySQL database username */
-define('DB_USER', 'username_here');
-
-/** MySQL database password */
-define('DB_PASSWORD', 'password_here');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
