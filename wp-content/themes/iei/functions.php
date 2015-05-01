@@ -55,9 +55,12 @@ function add_to_context($context){
 	if($context['posts'][0]->post_name=="our-team"){
 		$context['members'] = Timber::get_posts(array('post_type' => 'board', 'nopaging' => true, 'orderby' => 'menu_order' ));
 	}
-	if($context['posts'][0]->post_name=="our-work"){
-		$context['members'] = Timber::get_posts(array('post_type' => 'work', 'nopaging' => true, 'orderby' => 'menu_order' ));
-	}		
+	if($context['posts'][0]->post_name=="what-we-do"){
+		$context['works'] = Timber::get_posts(array('post_type' => 'work', 'nopaging' => true, 'orderby' => 'menu_order' ));
+	}	
+	if($context['posts'][0]->post_name=="activity-update"){
+		$context['activities'] = Timber::get_posts(array('post_type' => 'activities', 'nopaging' => true, 'orderby' => 'date', 'order' => 'DESC' ));
+	}	
 	
 	return $context;
 }	

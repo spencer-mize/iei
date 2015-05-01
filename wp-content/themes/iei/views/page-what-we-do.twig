@@ -1,0 +1,19 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	{% for work in works %}
+		<div class="row {{work.post_name}}">
+			<div class="media">
+				<div class="media-left">
+						<img class="media-object img-responsive" src="{{work.thumbnail}}" alt="{{post.title}}">
+				</div>
+				<div class="media-body">
+					<h4 class="media-heading">{{work.title}}</h4>
+					{% if work.custom["wpcf-iei-title"] %}<h5 class="media-heading">{{work.custom["wpcf-iei-title"]}}, Innovative Education International, Inc.</h5>{% endif %}
+					<h5 class="media-heading">{{work.custom["wpcf-career-title"]}}</h5>
+					{{work.content}}
+				</div>
+			</div>		
+		</div>
+	{% endfor %}
+{% endblock %}

@@ -3,6 +3,7 @@
 	{% if posts[0].thumbnail %}	
 		<div class="row">
 			<div class="col-sm-4 col-sm-offset-2">
+				<strong>{{ post.post_date|date("m/d/Y") }}</strong><br />
 				{{ posts[0].content }}
 			</div>
 			<div class="col-sm-4">
@@ -12,13 +13,13 @@
 	{% else %}
 		{% for post in posts %}
 			{% if post.thumbnail %}<img src="{{post.thumbnail}}" alt="{{post.thumbnail.title}}" class="img-responsive thumb" /> {% endif %}
-			{{post.content}}
+			{{ post.post_date|date("m/d/Y") }}
+			{{ post.content }}
 		{% endfor %}
-	{% endif %}
-	
-	{% if posts[0].post_name=="our-purpose" or posts[0].post_name=="get-involved" %}
+{% endif %}
 	<div class="row">
-
+		<div class="col-sm-4 col-sm-offset-2">{% if post.prev %}<a href="{{post.prev.link}}"><strong>&lt;&lt; Older:</strong> {{post.prev.title}}</a>{% endif %}</div>
+		<div class="col-sm-3 col-sm-offset-2">{% if post.next %}<a href="{{post.next.link}}"><strong>&gt;&gt; Newer:</strong> {{post.next.title}}</a>	{% endif %}</div>
 	</div>
-	{% endif %}	
+
 {% endblock %}

@@ -8,6 +8,14 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+input[type="radio"], input[type="checkbox"] {
+	margin: 7px 0 0;
+}
+@media (min-width: $screen-lg-min) {
+	input[type="radio"], input[type="checkbox"] {
+		margin: 11px 0 0;
+	}
+}
 h5{
 	color: $gray-light;
 }
@@ -84,7 +92,7 @@ header{
 			@extend .clearfix;
 			line-height: 1.4em;
 			margin: 0;
-			padding-bottom: 40px;			
+			padding-bottom: 50px;			
 		}
 		small{
 			display: block;
@@ -103,7 +111,7 @@ header{
 			}
 			h4{
 				background-color: rgba($brand-secondary,.7);
-				padding-top: 40px;		
+				padding-top: 50px;		
 			}
 		}
 		footer{
@@ -161,7 +169,7 @@ header{
 		}
 	}
 }
-.our-team{
+.our-team,.activity-update{
 	.media{
 		strong{
 			color: $brand-secondary;
@@ -184,39 +192,13 @@ header{
 		}		
 	}
 }
-.svg-container{
-	&#africa{
-		@extend .col-lg-3;
-		@extend .col-lg-offset-2;
-	}
-	&#usa{
-		@extend .col-lg-5;
-	}	
-	padding-bottom: 20%; 
-	vertical-align: middle;
-	svg{ 
-	  display: block;
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	}
-	path{
-		fill: $almost-white !important;
-		stroke: $deep-gray !important;
-	}
-	@for $i from 1 through 200{
-		$delay: random(5000) / 1000;
-		path:nth-of-type(#{$i}){
-			transition: all 4s ease-in-out $delay+s;
-		}
+.documents{
+	.wrapper{
+		@extend .col-sm-8;
+		@extend .col-sm-offset-2;
 	}
 }
-.svg-container.visible{
-	path{
-		fill: $brand-primary !important;
-	}
-}
-.our-purpose,.our-work,.get-involved,.our-history{
+.our-purpose,.what-we-do,.get-involved,.our-history,.single{
 	.wrapper{
 		img{
 			border-radius: 50%;
@@ -229,14 +211,14 @@ header{
 		}
 	}
 }
-.our-work, .our-team{
+.what-we-do, .our-team,.activity-update{
 	.wrapper{
 		img{
 			max-height: 250px;
 		}
 	}
 }
-.our-work .laptop-recycling-program{
+.what-we-do .laptop-recycling-program{
 	img{
 		border: none;
 		border-radius: 0;

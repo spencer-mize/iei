@@ -2407,7 +2407,7 @@ pre code {
 }
 
 /* line 11, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .our-partners .media .media-left, .col-md-3, .col-lg-3, .svg-container#africa, .col-xs-4, .col-sm-4, .media .media-left, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .home header h1, .svg-container#usa, .col-xs-6, .col-sm-6, .media .media-body, .col-md-6, .col-lg-6, .home header h4, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, header h1, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .media .media-left, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .our-partners .media .media-left, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .media .media-left, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .home header h1, .col-xs-6, .col-sm-6, .media .media-body, .col-md-6, .col-lg-6, .home header h4, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, header h1, .documents .wrapper, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .media .media-left, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2676,7 +2676,7 @@ pre code {
 
 @media (min-width: 768px) {
   /* line 27, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .our-partners .media .media-left, .col-sm-4, .media .media-left, .col-sm-5, .col-sm-6, .media .media-body, .col-sm-7, .col-sm-8, header h1, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .our-partners .media .media-left, .col-sm-4, .media .media-left, .col-sm-5, .col-sm-6, .media .media-body, .col-sm-7, .col-sm-8, header h1, .documents .wrapper, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
 
@@ -2716,7 +2716,7 @@ pre code {
   }
 
   /* line 35, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-8, header h1 {
+  .col-sm-8, header h1, .documents .wrapper {
     width: 66.66667%;
   }
 
@@ -2881,7 +2881,7 @@ pre code {
   }
 
   /* line 60, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-offset-2, header h1 {
+  .col-sm-offset-2, header h1, .documents .wrapper {
     margin-left: 16.66667%;
   }
 
@@ -3198,7 +3198,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   /* line 27, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-1, .col-lg-2, .col-lg-3, .svg-container#africa, .col-lg-4, .col-lg-5, .home header h1, .svg-container#usa, .col-lg-6, .home header h4, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .home header h1, .col-lg-6, .home header h4, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
 
@@ -3213,7 +3213,7 @@ pre code {
   }
 
   /* line 35, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-3, .svg-container#africa {
+  .col-lg-3 {
     width: 25%;
   }
 
@@ -3223,7 +3223,7 @@ pre code {
   }
 
   /* line 35, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-5, .home header h1, .svg-container#usa {
+  .col-lg-5, .home header h1 {
     width: 41.66667%;
   }
 
@@ -3403,7 +3403,7 @@ pre code {
   }
 
   /* line 60, ../../vendor/twbs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-lg-offset-2, .svg-container#africa {
+  .col-lg-offset-2 {
     margin-left: 16.66667%;
   }
 
@@ -8578,11 +8578,22 @@ html {
 }
 
 /* line 11, ../sass/style.scss */
+input[type="radio"], input[type="checkbox"] {
+  margin: 7px 0 0;
+}
+
+@media (min-width: 1200px) {
+  /* line 15, ../sass/style.scss */
+  input[type="radio"], input[type="checkbox"] {
+    margin: 11px 0 0;
+  }
+}
+/* line 19, ../sass/style.scss */
 h5 {
   color: #777777;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 footer {
   position: relative;
   text-align: center;
@@ -8590,1019 +8601,196 @@ footer {
   font-size: 14.4px;
   color: #555555;
 }
-/* line 20, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 footer .navbar {
   padding: 20px 0;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .navbar-brand {
   padding: 5px 15px;
 }
-/* line 26, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .navbar-brand img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .nav * {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .media {
   padding-top: 20px;
   padding-bottom: 20px;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 42, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .media .media-left img {
   max-height: 100px;
   margin: 20px auto;
 }
 @media (min-width: 768px) {
-  /* line 42, ../sass/style.scss */
+  /* line 50, ../sass/style.scss */
   .media .media-left img {
     margin-bottom: 0;
     float: right;
   }
 }
 
-/* line 55, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .thumb {
   margin-top: -40px;
   margin-bottom: 40px;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 header {
   background: #018651;
 }
-/* line 62, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 header h1 {
   color: #fefefe;
   margin-bottom: 26px;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .home header {
   color: #fefefe;
   background: rgba(52, 52, 52, 0.9);
   padding: 0;
 }
-/* line 74, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .home header h1 {
   margin-top: 0;
   padding-top: 40px;
 }
-/* line 82, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .home header h4 {
   line-height: 1.4em;
   margin: 0;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
-/* line 89, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .home header small {
   display: block;
   color: #018651;
 }
-/* line 93, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .home header .btn {
   margin-top: 25px;
 }
 @media (min-width: 1200px) {
-  /* line 98, ../sass/style.scss */
+  /* line 106, ../sass/style.scss */
   .home header {
     position: relative;
     margin-top: -15%;
   }
-  /* line 101, ../sass/style.scss */
+  /* line 109, ../sass/style.scss */
   .home header h1 {
     padding-bottom: 40px;
   }
-  /* line 104, ../sass/style.scss */
+  /* line 112, ../sass/style.scss */
   .home header h4 {
     background-color: rgba(0, 69, 102, 0.7);
-    padding-top: 40px;
+    padding-top: 50px;
   }
-  /* line 109, ../sass/style.scss */
+  /* line 117, ../sass/style.scss */
   .home footer {
     margin-top: 0%;
   }
-  /* line 112, ../sass/style.scss */
+  /* line 120, ../sass/style.scss */
   .home .navbar .container-fluid {
     width: 100%;
     margin-left: 0;
   }
 }
 
-/* line 119, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .wrapper .row {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-/* line 123, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+1) {
   background: #343434;
   color: #fefefe;
 }
-/* line 126, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+1) h2 {
   color: #018651;
 }
-/* line 133, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) {
   background: #004566;
   color: #fefefe;
 }
-/* line 136, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) h2 {
   color: #fefefe;
 }
-/* line 139, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) a {
   color: #f6d506;
 }
-/* line 143, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n) {
   background: #fefefe;
   color: #004566;
 }
-/* line 146, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n) h2 {
   color: #004566;
 }
 @media (min-width: 1200px) {
-  /* line 154, ../sass/style.scss */
+  /* line 162, ../sass/style.scss */
   .wrapper .row {
     padding-bottom: 10%;
     padding-top: 5%;
     font-size: 20px;
   }
-  /* line 158, ../sass/style.scss */
+  /* line 166, ../sass/style.scss */
   .wrapper .row h4 {
     font-size: 36px;
   }
 }
 
-/* line 166, ../sass/style.scss */
-.our-team .media strong {
+/* line 174, ../sass/style.scss */
+.our-team .media strong, .activity-update .media strong {
   color: #004566;
 }
-/* line 169, ../sass/style.scss */
-.our-team .media img {
+/* line 177, ../sass/style.scss */
+.our-team .media img, .activity-update .media img {
   max-height: 200px;
   border-radius: 50%;
   border: 10px solid #018651;
 }
 
-/* line 181, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .our-partners .media .media-left img {
   max-width: 50%;
 }
 
-/* line 187, ../sass/style.scss */
-.svg-container {
-  padding-bottom: 20%;
-  vertical-align: middle;
-}
-/* line 197, ../sass/style.scss */
-.svg-container svg {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 /* line 203, ../sass/style.scss */
-.svg-container path {
-  fill: #fefefe !important;
-  stroke: #343434 !important;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(1) {
-  transition: all 4s ease-in-out 4.743s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(2) {
-  transition: all 4s ease-in-out 1.015s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(3) {
-  transition: all 4s ease-in-out 0.561s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(4) {
-  transition: all 4s ease-in-out 3.622s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(5) {
-  transition: all 4s ease-in-out 1.098s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(6) {
-  transition: all 4s ease-in-out 2.527s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(7) {
-  transition: all 4s ease-in-out 3.93s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(8) {
-  transition: all 4s ease-in-out 2.153s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(9) {
-  transition: all 4s ease-in-out 4.974s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(10) {
-  transition: all 4s ease-in-out 2.509s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(11) {
-  transition: all 4s ease-in-out 1.362s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(12) {
-  transition: all 4s ease-in-out 0.393s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(13) {
-  transition: all 4s ease-in-out 4.614s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(14) {
-  transition: all 4s ease-in-out 2.65s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(15) {
-  transition: all 4s ease-in-out 0.596s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(16) {
-  transition: all 4s ease-in-out 2.418s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(17) {
-  transition: all 4s ease-in-out 3.58s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(18) {
-  transition: all 4s ease-in-out 3.122s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(19) {
-  transition: all 4s ease-in-out 1.398s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(20) {
-  transition: all 4s ease-in-out 3.097s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(21) {
-  transition: all 4s ease-in-out 3.082s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(22) {
-  transition: all 4s ease-in-out 4.76s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(23) {
-  transition: all 4s ease-in-out 3.154s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(24) {
-  transition: all 4s ease-in-out 3.109s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(25) {
-  transition: all 4s ease-in-out 2.146s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(26) {
-  transition: all 4s ease-in-out 3.776s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(27) {
-  transition: all 4s ease-in-out 0.273s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(28) {
-  transition: all 4s ease-in-out 3.956s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(29) {
-  transition: all 4s ease-in-out 2.167s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(30) {
-  transition: all 4s ease-in-out 1.068s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(31) {
-  transition: all 4s ease-in-out 0.785s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(32) {
-  transition: all 4s ease-in-out 3.838s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(33) {
-  transition: all 4s ease-in-out 1.823s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(34) {
-  transition: all 4s ease-in-out 2.222s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(35) {
-  transition: all 4s ease-in-out 0.371s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(36) {
-  transition: all 4s ease-in-out 0.801s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(37) {
-  transition: all 4s ease-in-out 2.334s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(38) {
-  transition: all 4s ease-in-out 4.957s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(39) {
-  transition: all 4s ease-in-out 1.873s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(40) {
-  transition: all 4s ease-in-out 1.485s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(41) {
-  transition: all 4s ease-in-out 0.339s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(42) {
-  transition: all 4s ease-in-out 4.824s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(43) {
-  transition: all 4s ease-in-out 1.003s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(44) {
-  transition: all 4s ease-in-out 3.345s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(45) {
-  transition: all 4s ease-in-out 1.209s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(46) {
-  transition: all 4s ease-in-out 0.725s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(47) {
-  transition: all 4s ease-in-out 2.064s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(48) {
-  transition: all 4s ease-in-out 0.854s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(49) {
-  transition: all 4s ease-in-out 0.347s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(50) {
-  transition: all 4s ease-in-out 4.621s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(51) {
-  transition: all 4s ease-in-out 2.774s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(52) {
-  transition: all 4s ease-in-out 1.848s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(53) {
-  transition: all 4s ease-in-out 0.929s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(54) {
-  transition: all 4s ease-in-out 1.714s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(55) {
-  transition: all 4s ease-in-out 4.837s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(56) {
-  transition: all 4s ease-in-out 2.193s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(57) {
-  transition: all 4s ease-in-out 4.435s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(58) {
-  transition: all 4s ease-in-out 2.901s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(59) {
-  transition: all 4s ease-in-out 2.094s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(60) {
-  transition: all 4s ease-in-out 1.065s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(61) {
-  transition: all 4s ease-in-out 1.005s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(62) {
-  transition: all 4s ease-in-out 1.206s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(63) {
-  transition: all 4s ease-in-out 3.99s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(64) {
-  transition: all 4s ease-in-out 2.068s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(65) {
-  transition: all 4s ease-in-out 4.756s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(66) {
-  transition: all 4s ease-in-out 1.932s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(67) {
-  transition: all 4s ease-in-out 4.758s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(68) {
-  transition: all 4s ease-in-out 2.076s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(69) {
-  transition: all 4s ease-in-out 3.737s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(70) {
-  transition: all 4s ease-in-out 4.294s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(71) {
-  transition: all 4s ease-in-out 3.959s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(72) {
-  transition: all 4s ease-in-out 2.833s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(73) {
-  transition: all 4s ease-in-out 2.924s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(74) {
-  transition: all 4s ease-in-out 3.702s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(75) {
-  transition: all 4s ease-in-out 3.294s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(76) {
-  transition: all 4s ease-in-out 0.727s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(77) {
-  transition: all 4s ease-in-out 1.102s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(78) {
-  transition: all 4s ease-in-out 0.273s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(79) {
-  transition: all 4s ease-in-out 0.933s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(80) {
-  transition: all 4s ease-in-out 4.438s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(81) {
-  transition: all 4s ease-in-out 0.921s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(82) {
-  transition: all 4s ease-in-out 0.435s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(83) {
-  transition: all 4s ease-in-out 1.329s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(84) {
-  transition: all 4s ease-in-out 0.19s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(85) {
-  transition: all 4s ease-in-out 3.632s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(86) {
-  transition: all 4s ease-in-out 1.464s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(87) {
-  transition: all 4s ease-in-out 0.63s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(88) {
-  transition: all 4s ease-in-out 4.227s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(89) {
-  transition: all 4s ease-in-out 2.71s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(90) {
-  transition: all 4s ease-in-out 0.714s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(91) {
-  transition: all 4s ease-in-out 1.748s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(92) {
-  transition: all 4s ease-in-out 2.338s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(93) {
-  transition: all 4s ease-in-out 0.99s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(94) {
-  transition: all 4s ease-in-out 1.019s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(95) {
-  transition: all 4s ease-in-out 3.9s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(96) {
-  transition: all 4s ease-in-out 4.83s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(97) {
-  transition: all 4s ease-in-out 2.948s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(98) {
-  transition: all 4s ease-in-out 1.846s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(99) {
-  transition: all 4s ease-in-out 2.892s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(100) {
-  transition: all 4s ease-in-out 2.324s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(101) {
-  transition: all 4s ease-in-out 1.104s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(102) {
-  transition: all 4s ease-in-out 4.536s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(103) {
-  transition: all 4s ease-in-out 4.309s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(104) {
-  transition: all 4s ease-in-out 1.03s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(105) {
-  transition: all 4s ease-in-out 1.139s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(106) {
-  transition: all 4s ease-in-out 0.748s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(107) {
-  transition: all 4s ease-in-out 4.58s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(108) {
-  transition: all 4s ease-in-out 2.731s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(109) {
-  transition: all 4s ease-in-out 3.247s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(110) {
-  transition: all 4s ease-in-out 2.25s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(111) {
-  transition: all 4s ease-in-out 4.034s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(112) {
-  transition: all 4s ease-in-out 3.979s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(113) {
-  transition: all 4s ease-in-out 2.476s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(114) {
-  transition: all 4s ease-in-out 4.161s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(115) {
-  transition: all 4s ease-in-out 0.141s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(116) {
-  transition: all 4s ease-in-out 4.983s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(117) {
-  transition: all 4s ease-in-out 4.366s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(118) {
-  transition: all 4s ease-in-out 2.216s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(119) {
-  transition: all 4s ease-in-out 2.068s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(120) {
-  transition: all 4s ease-in-out 3.401s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(121) {
-  transition: all 4s ease-in-out 3.769s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(122) {
-  transition: all 4s ease-in-out 4.624s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(123) {
-  transition: all 4s ease-in-out 0.033s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(124) {
-  transition: all 4s ease-in-out 4.747s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(125) {
-  transition: all 4s ease-in-out 2.178s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(126) {
-  transition: all 4s ease-in-out 3.065s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(127) {
-  transition: all 4s ease-in-out 0.248s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(128) {
-  transition: all 4s ease-in-out 3.642s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(129) {
-  transition: all 4s ease-in-out 1.946s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(130) {
-  transition: all 4s ease-in-out 4.275s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(131) {
-  transition: all 4s ease-in-out 0.923s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(132) {
-  transition: all 4s ease-in-out 2.576s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(133) {
-  transition: all 4s ease-in-out 2.539s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(134) {
-  transition: all 4s ease-in-out 2.157s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(135) {
-  transition: all 4s ease-in-out 0.719s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(136) {
-  transition: all 4s ease-in-out 1.283s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(137) {
-  transition: all 4s ease-in-out 2.238s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(138) {
-  transition: all 4s ease-in-out 4.101s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(139) {
-  transition: all 4s ease-in-out 0.717s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(140) {
-  transition: all 4s ease-in-out 2.51s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(141) {
-  transition: all 4s ease-in-out 3.665s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(142) {
-  transition: all 4s ease-in-out 0.453s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(143) {
-  transition: all 4s ease-in-out 1.969s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(144) {
-  transition: all 4s ease-in-out 1.604s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(145) {
-  transition: all 4s ease-in-out 0.482s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(146) {
-  transition: all 4s ease-in-out 4.156s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(147) {
-  transition: all 4s ease-in-out 3.617s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(148) {
-  transition: all 4s ease-in-out 4.356s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(149) {
-  transition: all 4s ease-in-out 4.007s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(150) {
-  transition: all 4s ease-in-out 1.008s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(151) {
-  transition: all 4s ease-in-out 0.919s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(152) {
-  transition: all 4s ease-in-out 0.931s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(153) {
-  transition: all 4s ease-in-out 1.898s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(154) {
-  transition: all 4s ease-in-out 2.501s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(155) {
-  transition: all 4s ease-in-out 0.729s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(156) {
-  transition: all 4s ease-in-out 1.804s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(157) {
-  transition: all 4s ease-in-out 0.951s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(158) {
-  transition: all 4s ease-in-out 1.448s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(159) {
-  transition: all 4s ease-in-out 3.694s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(160) {
-  transition: all 4s ease-in-out 1.221s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(161) {
-  transition: all 4s ease-in-out 4.438s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(162) {
-  transition: all 4s ease-in-out 1.605s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(163) {
-  transition: all 4s ease-in-out 3.175s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(164) {
-  transition: all 4s ease-in-out 3.654s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(165) {
-  transition: all 4s ease-in-out 1.686s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(166) {
-  transition: all 4s ease-in-out 4.323s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(167) {
-  transition: all 4s ease-in-out 2.478s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(168) {
-  transition: all 4s ease-in-out 4.774s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(169) {
-  transition: all 4s ease-in-out 3.356s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(170) {
-  transition: all 4s ease-in-out 1.543s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(171) {
-  transition: all 4s ease-in-out 4.274s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(172) {
-  transition: all 4s ease-in-out 4.286s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(173) {
-  transition: all 4s ease-in-out 1.818s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(174) {
-  transition: all 4s ease-in-out 2.657s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(175) {
-  transition: all 4s ease-in-out 1.428s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(176) {
-  transition: all 4s ease-in-out 1.532s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(177) {
-  transition: all 4s ease-in-out 0.819s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(178) {
-  transition: all 4s ease-in-out 1.021s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(179) {
-  transition: all 4s ease-in-out 4.736s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(180) {
-  transition: all 4s ease-in-out 2.173s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(181) {
-  transition: all 4s ease-in-out 1.5s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(182) {
-  transition: all 4s ease-in-out 0.206s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(183) {
-  transition: all 4s ease-in-out 1.662s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(184) {
-  transition: all 4s ease-in-out 0.014s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(185) {
-  transition: all 4s ease-in-out 3.308s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(186) {
-  transition: all 4s ease-in-out 4.148s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(187) {
-  transition: all 4s ease-in-out 4.503s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(188) {
-  transition: all 4s ease-in-out 2.712s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(189) {
-  transition: all 4s ease-in-out 0.475s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(190) {
-  transition: all 4s ease-in-out 2.981s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(191) {
-  transition: all 4s ease-in-out 4.506s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(192) {
-  transition: all 4s ease-in-out 1.464s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(193) {
-  transition: all 4s ease-in-out 2.314s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(194) {
-  transition: all 4s ease-in-out 0.644s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(195) {
-  transition: all 4s ease-in-out 1.998s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(196) {
-  transition: all 4s ease-in-out 2.98s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(197) {
-  transition: all 4s ease-in-out 2.528s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(198) {
-  transition: all 4s ease-in-out 0.921s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(199) {
-  transition: all 4s ease-in-out 4.064s;
-}
-/* line 209, ../sass/style.scss */
-.svg-container path:nth-of-type(200) {
-  transition: all 4s ease-in-out 3.115s;
-}
-
-/* line 215, ../sass/style.scss */
-.svg-container.visible path {
-  fill: #018651 !important;
-}
-
-/* line 221, ../sass/style.scss */
-.our-purpose .wrapper img, .our-work .wrapper img, .get-involved .wrapper img, .our-history .wrapper img {
+.our-purpose .wrapper img, .what-we-do .wrapper img, .get-involved .wrapper img, .our-history .wrapper img, .single .wrapper img {
   border-radius: 50%;
   border: 10px solid #fefefe;
 }
-/* line 227, ../sass/style.scss */
-.our-purpose .wrapper .row:nth-of-type(3n) img, .our-work .wrapper .row:nth-of-type(3n) img, .get-involved .wrapper .row:nth-of-type(3n) img, .our-history .wrapper .row:nth-of-type(3n) img {
+/* line 209, ../sass/style.scss */
+.our-purpose .wrapper .row:nth-of-type(3n) img, .what-we-do .wrapper .row:nth-of-type(3n) img, .get-involved .wrapper .row:nth-of-type(3n) img, .our-history .wrapper .row:nth-of-type(3n) img, .single .wrapper .row:nth-of-type(3n) img {
   border-color: #004566;
 }
 
-/* line 234, ../sass/style.scss */
-.our-work .wrapper img, .our-team .wrapper img {
+/* line 216, ../sass/style.scss */
+.what-we-do .wrapper img, .our-team .wrapper img, .activity-update .wrapper img {
   max-height: 250px;
 }
 
-/* line 240, ../sass/style.scss */
-.our-work .laptop-recycling-program img {
+/* line 222, ../sass/style.scss */
+.what-we-do .laptop-recycling-program img {
   border: none;
   border-radius: 0;
 }
