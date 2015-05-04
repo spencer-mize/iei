@@ -8723,6 +8723,10 @@ header h1 {
 .wrapper .row:nth-of-type(3n+1) h2 {
   color: #018651;
 }
+/* line 137, ../sass/style.scss */
+.wrapper .row:nth-of-type(3n+1) a {
+  color: #f6d506;
+}
 /* line 141, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) {
   background: #004566;
