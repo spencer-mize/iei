@@ -35,10 +35,16 @@ if (WP_ENV == 'dev') {
     define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
     define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
-    define('DB_NAME', 'iei');
-    define('DB_USER', 'ieiadmin');
-    define('DB_PASSWORD', 'Z9$rJ0CM@TFSR@d');
-    define('DB_HOST', 'localhost');
+	if($_SERVER['SERVER_NAME'] == "iei3c.org"){
+		define('DB_NAME', 'iei');
+		define('DB_USER', 'ieiadmin');
+		define('DB_PASSWORD', 'Z9$rJ0CM@TFSR@d');
+	}else{
+		define('DB_NAME', 'iel');
+		define('DB_USER', 'ieladmin');
+		define('DB_PASSWORD', 'Z9$rJ0CM@TFSR@d');	
+	}
+	define('DB_HOST', 'localhost');	
 }
 
 /** MySQL hostname */
