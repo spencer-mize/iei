@@ -28,6 +28,10 @@ footer{
 	.navbar{
 		padding: 20px 0;
 	}
+	li{
+		@extend .col-sm-4;
+		list-style: none;
+	}
 }
 .navbar-brand{
 	padding: 5px 15px;

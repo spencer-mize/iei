@@ -8,11 +8,18 @@ remove_action('wp_head', 'wp_generator');
 /* Allow Menu Editing */
 add_theme_support( 'menus' );
 
-/* Allow Custom Headers */
+/* Allow Custom Header Pictures */
 $args = array(
 	'default-image' => get_template_directory_uri() . '/img/logo.png'
 );
 add_theme_support( 'custom-header',$args);
+
+/* Sidebar for Footer */
+register_sidebars(1,array(
+	'name'			=> 'Footer',
+	'id'			=> 'footer',
+	'description' 	=> 'This sidebar appears as the footer'
+));
 
 /* Allow Page Excerpts */
 add_post_type_support('page','excerpt');
@@ -67,7 +74,7 @@ function add_to_context($context){
 	if($context['posts'][0]->post_name=="activity-update"){
 		$context['activities'] = Timber::get_posts(array('post_type' => 'activities', 'nopaging' => true, 'orderby' => 'date', 'order' => 'DESC' ));
 	}	
-	
+	$context['footer'] = Timber::get_widgets('footer');
 	return $context;
 }	
 
