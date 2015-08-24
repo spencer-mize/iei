@@ -10,7 +10,7 @@
 				<h4 class="media-heading"><a href="{{activity.link}}">{{activity.title}}</a></h4>
 				<h5 class="media-heading">{{activity.post_date|date("m/d/Y") }}</h5>
 				<br />
-				{{ activity.get_preview(55) }}
+				{{ activity.get_preview(55,true,"   <strong>Read More!</strong>",false) }}
 			</div>
 		</div>		
 	{% endfor %}
