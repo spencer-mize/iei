@@ -32,6 +32,16 @@ footer{
 		@extend .col-sm-4;
 		list-style: none;
 	}
+	cite,cite:before{
+		color: white;
+	}	
+}
+footer:before{
+	color: white;
+}
+blockquote footer{
+	text-align: right;
+	padding-top: 20px;
 }
 .navbar-brand{
 	padding: 5px 15px;
@@ -202,7 +212,7 @@ header{
 		@extend .col-sm-offset-2;
 	}
 }
-.our-purpose,.what-we-do,.get-involved,.our-history,.single{
+.our-purpose,.what-we-do,.get-involved,.our-history,.single,.home{
 	.wrapper{
 		img{
 			border-radius: 50%;
@@ -215,7 +225,7 @@ header{
 		}
 	}
 }
-.what-we-do, .our-team,.activity-update{
+.what-we-do, .our-team,.activity-update,.home{
 	.wrapper{
 		img{
 			max-height: 250px;
