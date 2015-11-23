@@ -53,6 +53,15 @@ blockquote footer{
 .nav *{
 	font-family: $font-family-sans-serif;
 }
+.btn-front{
+	position: absolute;
+	top: 60%;
+	right: 10%;
+	padding:  18px 28px;
+	font-size: 42px;
+	line-height: normal;
+	background-color: rgba(1, 134, 81,.8);
+}
 .media{
 	padding-top: 20px;
 	padding-bottom: 20px;
