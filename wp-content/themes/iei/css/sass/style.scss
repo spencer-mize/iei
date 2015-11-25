@@ -55,12 +55,21 @@ blockquote footer{
 }
 .btn-front{
 	position: absolute;
-	top: 60%;
-	right: 10%;
-	padding:  18px 28px;
-	font-size: 42px;
-	line-height: normal;
 	background-color: rgba(1, 134, 81,.8);
+	margin-top: 20px;
+	
+}
+@media (min-width: $screen-md-min) {
+	.btn-front{
+		font-size: 28px;
+		line-height: normal;
+	}
+}
+@media (min-width: $screen-lg-min) {
+	.btn-front{	
+		padding:  28px 14px;		
+		font-size: 38px;
+	}
 }
 .media{
 	padding-top: 20px;
