@@ -2,7 +2,10 @@
 
 {% block header %}
 	<div>
-	<img class="img-responsive" src="{{posts[0].thumbnail}}"></img>
+	<div class="row hero">
+		<img class="img-responsive col-lg-6 image" src="{{posts[0].thumbnail}}"></img>
+		<iframe class="col-lg-6 video" src="https://player.vimeo.com/video/162821585?title=0&badge=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
 	<header class="header" >
 		<h1>{{posts[0].title}} <small>{{posts[0].custom["wpcf-subtitle"]}}</small></h1>
 		<h4>
@@ -16,7 +19,6 @@
 {% endblock %}
 	
 {% block content %}
-	<div class="row"></div>
 	<div class="row">
 		<div class="media">
 			<div class="media-left">

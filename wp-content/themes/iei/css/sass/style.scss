@@ -8,6 +8,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body{
+	overflow-x: hidden;
+}
 input[type="radio"], input[type="checkbox"] {
 	margin: 7px 0 0;
 }
@@ -135,10 +138,12 @@ header{
 			margin-top: 25px;
 		}
 	}
+	.hero{
+		background: $brand-primary;
+	}
 	@media (min-width: $screen-lg-min) {
 		header{
 			position: relative;
-			margin-top: -15%;
 			h1{
 				padding-bottom: 40px;			
 			}
@@ -154,6 +159,9 @@ header{
 		.navbar .container-fluid{
 			width: 100%;
 			margin-left: 0;
+		}
+		.front-main{
+			width: 50%
 		}
 	}
 }
