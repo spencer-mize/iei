@@ -8762,92 +8762,96 @@ header h1 {
     width: 50%;
   }
 }
+/* line 167, ../sass/style.scss */
+.home .carousel {
+  overflow: hidden;
+}
 
-/* line 169, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .wrapper .row {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-/* line 173, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+1) {
   background: #343434;
   color: #fefefe;
 }
-/* line 176, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+1) h2 {
   color: #018651;
 }
-/* line 179, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+1) a {
   color: #f6d506;
 }
-/* line 183, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) {
   background: #004566;
   color: #fefefe;
 }
-/* line 186, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) h2 {
   color: #fefefe;
 }
-/* line 189, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n+2) a {
   color: #f6d506;
 }
-/* line 193, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n) {
   background: #fefefe;
   color: #004566;
 }
-/* line 196, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .wrapper .row:nth-of-type(3n) h2 {
   color: #004566;
 }
 @media (min-width: 1200px) {
-  /* line 204, ../sass/style.scss */
+  /* line 207, ../sass/style.scss */
   .wrapper .row {
     padding-bottom: 10%;
     padding-top: 5%;
     font-size: 20px;
   }
-  /* line 208, ../sass/style.scss */
+  /* line 211, ../sass/style.scss */
   .wrapper .row h4 {
     font-size: 36px;
   }
 }
 
-/* line 216, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .our-team .media strong, .activity-update .media strong {
   color: #004566;
 }
-/* line 219, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .our-team .media img, .activity-update .media img {
   max-height: 200px;
   border-radius: 50%;
   border: 10px solid #018651;
 }
 
-/* line 231, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 .our-partners .media .media-left img {
   max-width: 50%;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .our-purpose .wrapper img, .what-we-do .wrapper img, .get-involved .wrapper img, .our-history .wrapper img, .single .wrapper img, .home .wrapper img {
   border-radius: 50%;
   border: 10px solid #fefefe;
 }
-/* line 251, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 .our-purpose .wrapper .row:nth-of-type(3n) img, .what-we-do .wrapper .row:nth-of-type(3n) img, .get-involved .wrapper .row:nth-of-type(3n) img, .our-history .wrapper .row:nth-of-type(3n) img, .single .wrapper .row:nth-of-type(3n) img, .home .wrapper .row:nth-of-type(3n) img {
   border-color: #004566;
 }
 
-/* line 258, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 .what-we-do .wrapper img, .our-team .wrapper img, .activity-update .wrapper img, .home .wrapper img {
   max-height: 250px;
 }
 
-/* line 264, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .what-we-do .laptop-recycling-program img {
   border: none;
   border-radius: 0;
