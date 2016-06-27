@@ -8837,12 +8837,12 @@ header h1 {
 }
 
 /* line 248, ../sass/style.scss */
-.our-purpose .wrapper img, .what-we-do .wrapper img, .get-involved .wrapper img, .our-history .wrapper img, .single .wrapper img, .home .wrapper img {
+.our-purpose .wrapper img, .what-we-do .wrapper img, .get-involved .wrapper img, .our-history .wrapper img, .our-mission .wrapper img, .single .wrapper img, .home .wrapper img {
   border-radius: 50%;
   border: 10px solid #fefefe;
 }
 /* line 254, ../sass/style.scss */
-.our-purpose .wrapper .row:nth-of-type(3n) img, .what-we-do .wrapper .row:nth-of-type(3n) img, .get-involved .wrapper .row:nth-of-type(3n) img, .our-history .wrapper .row:nth-of-type(3n) img, .single .wrapper .row:nth-of-type(3n) img, .home .wrapper .row:nth-of-type(3n) img {
+.our-purpose .wrapper .row:nth-of-type(3n) img, .what-we-do .wrapper .row:nth-of-type(3n) img, .get-involved .wrapper .row:nth-of-type(3n) img, .our-history .wrapper .row:nth-of-type(3n) img, .our-mission .wrapper .row:nth-of-type(3n) img, .single .wrapper .row:nth-of-type(3n) img, .home .wrapper .row:nth-of-type(3n) img {
   border-color: #004566;
 }
 
