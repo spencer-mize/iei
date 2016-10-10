@@ -1,0 +1,18 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	{% for member in members %}
+		<div class="media">
+			<div class="media-left">
+					<img class="media-object img-responsive" src="{{member.thumbnail}}" alt="{{post.title}}">
+				</div>
+			<div class="media-body">
+				<h4 class="media-heading">{{member.title}}</h4>
+				{% if member.custom["wpcf-iei-title"] %}<h5 class="media-heading">{{member.custom["wpcf-iei-title"]}}, {{site.name}}, Inc.</h5>{% endif %}
+				<h5 class="media-heading">{{member.custom["wpcf-career-title"]}}</h5>
+				<br />
+				{{member.content}}
+			</div>
+		</div>		
+	{% endfor %}
+{% endblock %}
