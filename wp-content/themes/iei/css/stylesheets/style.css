@@ -8821,11 +8821,11 @@ header h1 {
 }
 
 /* line 219, ../sass/style.scss */
-.our-team .media strong, .activity-update .media strong {
+.our-team .media strong, .activity-update .media strong, .team-bios .media strong {
   color: #004566;
 }
 /* line 222, ../sass/style.scss */
-.our-team .media img, .activity-update .media img {
+.our-team .media img, .activity-update .media img, .team-bios .media img {
   max-height: 200px;
   border-radius: 50%;
   border: 10px solid #018651;
