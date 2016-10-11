@@ -74,7 +74,7 @@ function add_to_context($context){
 	if($context['posts'][0]->post_name=="activity-update"){
 		$context['activities'] = Timber::get_posts(array('post_type' => 'activities', 'nopaging' => true, 'orderby' => 'date', 'order' => 'DESC' ));
 	}
-	if($context['posts'][0]->post_name=="bios"){
+	if($context['posts'][0]->post_name=="team-bios"){
 		$context['members'] = Timber::get_posts(array('post_type' => 'bios', 'nopaging' => true, 'orderby' => 'menu_order' ));
 	}	
 	$context['footer'] = Timber::get_widgets('footer');
