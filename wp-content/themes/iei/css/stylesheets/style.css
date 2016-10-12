@@ -8847,7 +8847,7 @@ header h1 {
 }
 
 /* line 261, ../sass/style.scss */
-.what-we-do .wrapper img, .our-team .wrapper img, .activity-update .wrapper img, .home .wrapper img {
+.what-we-do .wrapper img, .our-team .wrapper img, .activity-update .wrapper img, .home .wrapper img, .team-bios .wrapper img {
   max-height: 250px;
 }
 
